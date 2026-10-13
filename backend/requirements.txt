@@ -1,0 +1,11 @@
+
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic[email]
+python-jose[cryptography]
+bcrypt
+python-dotenv
+transformers
+sentencepiece
+torch
