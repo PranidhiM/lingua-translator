@@ -418,3 +418,13 @@ h1, h2, h3 { font-family: Manrope, sans-serif; }
   .footer { flex-direction: column; }
   .auth-card { padding: 25px; }
 }
+.admin-card {
+  margin: 24px 0;
+}
+
+.registration-total {
+  display: block;
+  margin: 8px 0 24px;
+  color: #6b5ce7;
+  font: 800 36px Manrope, sans-serif;
+}
