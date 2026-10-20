@@ -7,3 +7,5 @@ node_modules/
 *.db
 __pycache__/
 dist/
+node_modules/
+**/node_modules/
