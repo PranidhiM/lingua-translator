@@ -1,28 +1,9 @@
-
-# Python virtual environments
 .venv/
 **/.venv/
-
-# Node.js dependencies
 node_modules/
 **/node_modules/
-
-# Environment variables and secrets
 .env
 **/.env
-
-# Databases
 *.db
-*.sqlite
-*.sqlite3
-
-# Python cache
 __pycache__/
-*.py[cod]
-
-# Frontend build output
 dist/
-**/dist/
-
-# IDE settings
-.idea/
