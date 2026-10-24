@@ -4,7 +4,7 @@ import logging
 import os
 import secrets
 import smtplib
-
+from fastapi.middleware.cors import CORSMiddlewa
 from datetime import datetime, timedelta, timezone
 from email.message import EmailMessage
 from functools import lru_cache
@@ -192,12 +192,12 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://lingua-translator-jejqrbbxf-pranidhimar-4710s-projects.vercel.app",
-        # Keep local development origins:
         "http://localhost:5173",
         "http://127.0.0.1:5173",
         "http://localhost:5174",
         "http://127.0.0.1:5174",
+        "https://lingua-translator.vercel.app",
+        "https://lingua-translator-jejqrbbxf-pranidhimar-4710s-projects.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
